@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 
+<title></title>
+ 
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/footer.css" />
+<link rel="stylesheet" href="css/notice.css" />
+<link rel="stylesheet" href="css/ticket.css" />
+<link rel="stylesheet" href="css/pay.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/common.js"></script>    
+<script src="js/section.js"></script>    
+<script src="js/sub.js"></script>    
+ 
+</head>
+<body>
+    <header></header>
+     
+    <div class="content ticket">
+        
+        <div class="top">
+            <div class="inner">
+                <div class="toptitle">이용권 관리</div>
+            </div>
+        </div>
+        
+        <div class="inner">
+            
+            <section class="ticket">
+                <aside>
+                    <div class="snb-wrap">
+                        <div class="snb sel"><a href="ticket.html">이용권 조회 및 사용</a></div>
+                        <div class="snb"><a>이용권 결제내역</a></div>
+                        <div class="snb"><a>내 정보 관리</a></div>
+                    </div>
+                </aside>
+                
+                <div class="tview-wrap">
+                    <article class="tview sel">
+                        <div class="title">이용권 조회 및 사용</div>
+                        <div class="listcount">총 <span>3</span>명</div>
+                        <div class="cont">
+                            <div class="table-inner">
+                                <table id="myTable">
+                                    <thead>
+                                        <tr>
+                                            <th class="name">
+                                                <div class="tt">이름</div>
+                                            </th>
+                                            <th class="call">
+                                                <div class="tt">연락처</div>
+                                            </th>
+                                            <th class="afternoon">
+                                                <div class="tt">주간 이용권</div>
+                                            </th>
+                                            <th class="night">
+                                                <div class="tt">야간 이용권</div>
+                                            </th>
+                                            <th class="used">
+                                                <div class="tt"></div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="name">
+                                                <div class="tt">알캡처</div>
+                                            </td>
+                                            <td class="call">
+                                                <div class="tt">010-1234-1234</div>
+                                            </td>
+                                            <td class="afternoon">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">12</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="night">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">12</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="used">
+                                                <div class="tt">사용하기</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">
+                                                <div class="tt">어도비포토샵</div>
+                                            </td>
+                                            <td class="call">
+                                                <div class="tt">010-7564-1238</div>
+                                            </td>
+                                            <td class="afternoon">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">11</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="night">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">12</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="used">
+                                                <div class="tt">사용하기</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">
+                                                <div class="tt">미니언즈</div>
+                                            </td>
+                                            <td class="call">
+                                                <div class="tt">010-7453-1538</div>
+                                            </td>
+                                            <td class="afternoon">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">11</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="night">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">12</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="used">
+                                                <div class="tt">사용하기</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">
+                                                <div class="tt">씨서바</div>
+                                            </td>
+                                            <td class="call">
+                                                <div class="tt">010-8479-8568</div>
+                                            </td>
+                                            <td class="afternoon">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">12</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="night">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">12</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="used">
+                                                <div class="tt">사용하기</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">
+                                                <div class="tt">곰티비</div>
+                                            </td>
+                                            <td class="call">
+                                                <div class="tt">010-3425-4264</div>
+                                            </td>
+                                            <td class="afternoon">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">11</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="night">
+                                                <div class="data">
+                                                    <input type="hidden" value="11">
+                                                    <div class="datatext"><span class="spot">12</span>장</div>
+                                                    <div class="rightbtn">
+                                                        <div class="btn-wrap">
+                                                            <div class="btnup"></div>
+                                                            <div class="btndown"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tt"><span>12</span>장</div>
+                                                </div>
+                                            </td>
+                                            <td class="used">
+                                                <div class="tt">사용하기</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="paging">
+                                    <div class="number-wrap">
+                                        <div class="num active">1</div>
+                                        <div class="num">2</div>
+                                    </div>
+                                    <div class="list-search"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="핸드폰 번호로 검색" title="Type in a name"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="tview">
+                        <div class="title">이용권 결제내역</div>
+                        <div class="total-wrap">
+                                <div class="total">
+                                    <div class="text">판매 이용권<br /><span>200</span> 장</div>
+                                </div>
+                                <div class="total">
+                                    <div class="text">사용 이용권<br /><span>100</span> 장</div>
+                                </div>
+                                <div class="total">
+                                    <div class="text">미사용 이용권<br /><span>100</span> 장</div>
+                                </div>
+                                <div class="total">
+                                    <div class="text">총 결제 금액<br /><span>1,000,000</span> 원</div>
+                                </div>
+                            </div>
+                        <div class="searchboard">
+                            <div class="inner-circle">
+                                <div class="circle-left">
+                                    <div class="text">조회기간<span class="arrow"></span></div>
+                                </div>
+                                <div class="circle-right">
+                                    <form name="datetype" id="datetype" method="get">
+                                        <div class="month-wrap">
+                                            <div class="month active" id="ch1">1주일</div>
+                                            <div class="month" id="ch2">15일</div>
+                                            <div class="month" id="ch3">1개월</div>
+                                            <div class="month" id="ch4">3개월</div>
+                                            <input type="hidden" name="term" id="term" value="">
+                                        </div>
+                                        <div class="date-table">
+                                            <div class="sl"><select name="syear" id="syear"></select></div>
+                                            <div class="sl"><select name="smonth" id="smonth"></select></div>
+                                            <div class="sl"><select name="sdate" id="sdate"></select></div>
+                                            <div class="sl">&emsp;~&emsp;</div>
+                                            <div class="sl"><select name="dyear" id="dyear"></select></div>
+                                            <div class="sl"><select name="dmonth" id="dmonth"></select></div>
+                                            <div class="sl"><select name="ddate" id="ddate"></select></div>
+                                            <div class="sl"><input type="text" id="dsearch" name="dsearch">&emsp;</div>
+                                            <div class="sl"><input type="submit" class="btn-search" value="검색"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="table-inner">
+                                <table class="pay">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <div class="tt">판매일자</div>
+                                            </th>
+                                            <th>
+                                                <div class="tt">사용일자</div>
+                                            </th>
+                                            <th>
+                                                <div class="tt">이용권 종류</div>
+                                            </th>
+                                            <th>
+                                                <div class="tt">결제금액</div>
+                                            </th>
+                                            <th>
+                                                <div class="tt">사용여부</div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">주간 이용권</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">20,000 원</div>
+                                            </td>
+                                            <td class="end">
+                                                <div class="tt">사용 완료</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">주간 이용권</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">20,000 원</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">사용 완료</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">주간 이용권</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">20,000 원</div>
+                                            </td>
+                                            <td class="end">
+                                                <div class="tt">사용 완료</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">주간 이용권</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">20,000 원</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">사용 완료</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">2017.08.01</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">주간 이용권</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">20,000 원</div>
+                                            </td>
+                                            <td>
+                                                <div class="tt">사용 완료</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="tview">
+                        <div class="title">내 정보 관리</div>
+                        <div class="cont">
+                            <div class="table-inner">
+                                <table class="mypage">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="5">
+                                                <div class="tt">업체 정보 수정</div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">아이디</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">cisuba@naver.com</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">비밀번호</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter"><input type="submit" value="변경"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">이메일</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">cisuba@naver.com</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">휴대폰 번호</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">010-1234-1234</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">업체 이름</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">씨서바</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">주소</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">서울시 서초구 서초대로 48길 20, 4F</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">주간 가격</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">8,000</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">야간 가격</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">9,000</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">할인 가격</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">7,500</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tt">소개</div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="enter">대한민국 최초 욕탕앱 씨서바!</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="mypage-btn">
+                                <div class="btn"><input type="submit" value="수정하기"><a href="mypage.html"></a></div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                </div>
+            </section>
+            
+        </div>
+        
+    </div>
+     
+    <footer></footer>
+</body>
+</html>

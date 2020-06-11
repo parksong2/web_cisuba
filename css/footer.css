@@ -1,0 +1,116 @@
+footer {
+    background-color: #eee;
+    height: 220px;
+    transition: all 0.4s;
+}
+
+footer .etc-menu {
+    float: left;
+    margin-top: 40px;
+    transition: all 0.4s;
+}
+footer .etc {
+    float: left;
+    margin-left: 15px;
+    font-size: 15px;
+    transition: all 0.4s;
+}
+footer .etc:nth-child(1) {
+    margin-left: 0;
+    cursor: pointer;
+}
+footer .etc:nth-child(2) {
+    font-weight: 600;
+}
+footer .etc:before {
+    content: '';
+    width: 1px; height: 15px;
+    background-color: #999;
+    position: absolute;
+    top: 1px; left: -7px;
+}
+footer .etc:nth-child(1):before {
+    display: none;
+}
+
+footer .flogo {
+    width: 199px; height: 59px;
+    position: absolute;
+    top: 75px; left: 0;
+    transition: all 0.4s;
+}
+footer .company-info {
+    position: absolute;
+    top: 75px; left: 250px;
+    color: #999;
+    line-height: 25px;
+    transition: all 0.4s;
+}
+footer .company-info span {
+    cursor: pointer;
+}
+footer .company-info span:hover {
+    text-decoration: underline;
+}
+
+footer .cs-wrap {
+    float: right;
+    margin-top: 40px;
+    transition: all 0.4s;
+}
+footer .cs-wrap .cs-icon {
+    float: left;
+    width: 170px; height: 38px;
+    transition: all 0.4s;
+}
+footer .cs-wrap .cs-text {
+    width: 171px;
+    position: absolute;
+    top: 45px; left: 0;
+    transition: all 0.4s;
+}
+
+/*
+이메일 무단 수집 거부 popup
+*/
+.emailwarning {
+    position: fixed;
+    width: 100%;
+    top: 0; bottom: 0;
+    z-index: 9999;
+    display: none;
+}
+.emailwarning .email-popup {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 400px; height: 300px;
+    box-shadow: 4px 4px 10px;
+    border-radius: 15px;
+}
+.emailwarning .email-popup .text {
+    font-size: 16px;
+    margin: 60px 20px 20px;
+    display: inline-block;
+}
+.emailwarning .email-popup .text span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.emailwarning .email-popup .close {
+    width: 25px; height: 25px;
+    background-image: url(../images/iconset.png);
+    background-position: left -125px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px; right: 20px;
+    cursor: pointer;
+}
+.bg-wrap {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    display: none;
+}

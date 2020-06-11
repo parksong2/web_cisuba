@@ -1,0 +1,65 @@
+section.privacy-tab .tab-wrap {    
+    margin-top: 100px;
+    width: 1200px; height: 80px;
+    transition: all 0.4s;
+}
+
+section.privacy-tab .tab {
+    float: left;
+    width: 594px; height: 74px;
+    border: 3px solid #fff;
+    transition: all 0.4s;
+}
+section.privacy-tab .tab a {
+    width: 600px; height: 80px;
+    float: left;
+    transition: all 0.4s;
+}
+section.privacy-tab .tab .text {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    transition: all 0.4s;
+}
+section.privacy-tab .tab.sel {
+    font-weight: bold;
+    border: 3px solid #19a6c4;
+}
+section.privacy-tab .tab.sel .text {
+    color: #19a6c4;;
+}
+
+section.privacy-tab .tview-wrap {
+    float: left;
+    transition: all 0.4s;
+}
+section.privacy-tab .tview {
+    display: none;
+    transition: all 0.4s;
+}
+section.privacy-tab .tview.sel {
+    display: block;
+}
+
+section.privacy-tab .tview .title {
+    font-size: 24px;
+    margin: 30px 20px;
+    font-weight: bold;
+}
+section.privacy-tab .tview .cont {
+    float: left;
+    width: 1200px; height: 700px;
+    transition: all 0.4s;
+}
+section.privacy-tab .tview .cont textarea {
+    width: 1160px; height: 660px;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    resize: none;
+    border: 0;
+    color: #000;
+    background-color: #f1f1f1;
+    transition: all 0.4s;
+}

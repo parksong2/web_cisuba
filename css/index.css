@@ -1,0 +1,469 @@
+/*
+visual section
+*/
+section.visual .movie {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+section.visual video {
+    position: absolute;
+    top: 0; left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+section.visual .bg {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url(../images/bg_video.png);
+    opacity: 0.2;
+}
+section.visual .scrolldown {
+    position: absolute;
+    color: #fff;
+    bottom: 130px; left: 50%;
+    transform: translateX(-50%);
+}
+section.visual .scrolldown:before {
+    content: '';
+    width: 1px; height: 120px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 25px; left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*
+app-down section
+*/
+section.appdown {
+    height: 450px;
+    background-color: #fff;
+    transition: all 0.4s;
+}
+section.appdown .app-wrap {
+    width: 100%; height: inherit;
+    position: absolute;
+    top: 70px; left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s;
+}
+section.appdown .app-wrap .app {
+    float: left;
+    width: 33.33%; height: inherit;
+    transition: all 0.4s;
+}
+section.appdown .app-wrap .app .image {
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s;
+}
+section.appdown .app-wrap .app .text {
+    position: absolute;
+    top: 60%; left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.4s;
+}
+section.appdown .app-wrap .app .text span {
+    font-size: 16px;
+}
+section.appdown .app-wrap .app:hover .text span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/*
+tab menu section
+*/
+section.tab-menu .inner .tab-wrap {
+    width: 1200px; height: 70px;
+    transition: all 0.4s;
+}
+section.tab-menu .inner .tab {
+    width: 600px; height: 69px;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+section.tab-menu .inner .tab .text {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+section.tab-menu .inner .tab.sel {
+    border-bottom: 2px solid #19a6c4;
+    font-weight: bold;
+}
+
+section.tab-menu .inner .tview {
+    display: none;
+    transition: all 0.4s;
+}
+section.tab-menu .inner .tview.sel {
+    display: block;
+}
+section.tab-menu .inner .tview .title {
+    margin-top: 75px;
+    font-size: 36px;
+    font-weight: bold;
+}
+section.tab-menu .inner .tview .image {
+    width: 1200px; height: 588px;
+    position: absolute;
+    top: 143px; left: 50%;
+    transform: translateX(-50%);
+}
+section.tab-menu .inner .tview .image img {
+    width: 100%; height: 100%;
+    transition: all 0.4s;
+}
+
+section.tab-menu .tview .util-wrap {
+    margin-top: 45px;
+    float: left;
+}
+section.tab-menu .tview .util {
+    float: left;
+    margin-left: 80px;
+    transition: all 0.4s;
+}
+section.tab-menu .tview .util:first-child {
+    margin-left: 0;
+}
+section.tab-menu .util .icon {
+    width: 26px; height: 26px;
+    float: left;
+}
+section.tab-menu .util .icon img {
+    width: 100%;
+}
+section.tab-menu .util .text {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 3px;
+    transition: all 1.4s;
+}
+section.tab-menu .util:nth-child(3) .text:hover:before {
+    content: '';
+    position: absolute;
+    bottom: -5px; left: 0;
+    width: 100%; height: 1px;
+    background-color: #19a6c4;
+}
+
+
+/*
+partner section
+*/
+section.partner {
+    background-color: #eee;
+    transition: all 0.4s;
+}
+section.partner .title {
+    font-size: 36px;
+    padding-top: 90px;
+    transition: all 0.4s;
+}
+section.partner .cont {
+    float: left;
+    transition: all 0.4s;
+}
+section.partner .cont:nth-child(1) {
+    width: 1200px; height: 155px;
+    margin-top: 70px;
+    transition: all 0.4s;
+}
+section.partner .cont textarea {
+    width: 1164px; height: inherit;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    resize: none;
+    overflow-y: hidden;
+}
+
+/*개인정보처리방침 동의 버튼*/
+section.partner .cont:nth-child(2) {
+    margin-top: 20px;
+}
+section.partner .cont:nth-child(2) input {
+    float: left;
+    cursor: pointer;
+    width: 15px; height: 15px;
+}
+section.partner .cont:nth-child(2) .text {
+    float: left;
+    font-size: 14px;
+}
+
+/*입력부분들*/
+section.partner .enter {
+    margin-top: 40px;
+    width: 1200px; height: 42px;
+    float: left;
+    transition: all 0.4s;
+}
+section.partner .enter input {
+    width: 1164px; height: inherit;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+section.partner .partner-wrap .pt-btn {
+    width: 190px; height: 50px;
+    top: 60px; left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s;
+}
+section.partner .pt-btn button {
+    width: 100%; height: inherit;
+    background-color: #19a6c4;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: 0;
+    transition: all 0.4s;
+}
+section.partner textarea, section.partner input {
+    border: 1px solid #999;
+    transition: all 0.4s;
+}
+
+
+/*
+community section
+*/
+section.community {
+    height: 684px;
+    transition: all 0.4s;
+}
+
+/*board NEWS*/
+section.community .board {
+    position: absolute;
+    top: 190px; left: 0;
+    width: 300px; height: 297px;
+    background-color: #1f444c;
+    transition: all 0.4s;
+}
+section.community .board .title {
+    float: left;
+    margin: 20px 0 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+section.community .board .more {
+    width: 26px; height: 26px;
+    float: right;
+    margin: 20px 20px 0 0;
+    background-image: url(../images/sector2_plus.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 97;
+}
+section.community .board .more a {
+    width: 26px; height: 26px;
+    position: absolute;
+    top: 0; left: 0;
+    text-indent: -9999px;
+}
+
+/*뉴스 상하 롤링 버튼*/
+section.community .board .btn-commu {
+    width: 40px; height: 9px;
+    position: absolute;
+    bottom: 20px; right: 20px;
+    z-index: 98;
+}
+section.community .board .btn-commu .prev, section.community .board .btn-commu .next {
+    width: 17px; height: 9px;
+}
+section.community .board .btn-commu .prev img, section.community .board .btn-commu .next img {
+    height: 100%;
+    opacity: .7;
+    cursor: pointer;
+}
+section.community .board .btn-commu .prev:hover img, section.community .board .btn-commu .next:hover img {
+    opacity: 1;
+}
+section.community .board .btn-commu .next img {
+    transform: rotate(180deg);
+}
+section.community .board .btn-commu .prev {
+    float: left;
+}
+section.community .board .btn-commu .next {
+    float: right;
+}
+
+/*뉴스 내용 부분*/
+section.community .board .list-wrap {
+    position: absolute;
+    top: 20px; left: 20px; right: 20px; bottom: 20px;
+    overflow: hidden;
+}
+section.community .board .list {
+    width: 260px; height: 257px;
+}
+section.community .board .subject {
+    float: left;
+    width: 100%; height: 55px;
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+section.community .board .cont {
+    float: left;
+    width: 100%; height: 70px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #fff;
+    text-overflow: ellipsis;
+}
+section.community .board .month-wrap {
+    position: absolute;
+    bottom: 20px; left: 20px;
+    width: 120px; height: 20px;
+}
+section.community .board .month-wrap .icon {
+    float: left;
+    width: 20px; height: 20px;
+    background-image: url(../images/sector2_date.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section.community .board .month-wrap .month {
+    float: left;
+    margin-left: 10px;
+    width: 80px; height: 20px;
+    overflow: hidden;
+}
+section.community .board .month .date {
+    float: left;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f4c67a;
+    margin-top: 2px;
+}
+
+/*customer center*/
+section.community .cs-wrap {
+    position: absolute;
+    top: 190px; left: 304px;
+    width: 300px; height: 297px;
+    cursor: pointer;
+    background-color: #1f444c;
+    transition: all 0.4s;
+}
+section.community .cs-wrap a {
+    width: 300px; height: 297px;
+    position: absolute;
+    top: 0; left: 0;
+    text-indent: -9999px;
+}
+section.community .cs-wrap .cs {
+    width: 260px; height: 256px;
+    float: left;
+    top: 20px; left: 20px;
+    transition: all 0.4s;
+}
+section.community .cs-wrap .title {
+    position: absolute;
+    margin: 20px 0 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+section.community .cs-wrap .text {
+    position: absolute;
+    top: 50px; left: 0;
+    font-size: 24px;
+    color: #fff;
+}
+section.community .cs-wrap .icon {
+    width: 90px; height: 90px;
+    position: absolute;
+    bottom: 20px; right: 20px;
+}
+
+/*banner EVENT*/
+section.community .banner-wrap {
+    position: absolute;
+    top: 190px; left: 608px;
+    width: 592px; height: 297px;
+    transition: all 0.4s;
+}
+section.community .banner-wrap .banner {
+    width: 592px; height: 297px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+section.community .banner-wrap .banner img {
+    width: 100%; height: 100%;
+    transition: all 0.4s;
+}
+section.community .banner .title {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0 0 20px;
+    transition: all 0.4s;
+}
+section.community .banner .cont {
+    position: absolute;
+    top: 70px; left: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.4s;
+}
+section.community .banner .cont span {
+    font-size: 30px;
+    color: #fff;
+}
+section.community .banner .more {
+    position: absolute;
+    bottom: 50px; left: 20px;
+    cursor: pointer;
+}
+section.community .banner .more .text {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+}
+section.community .banner .more .icon {
+    position: absolute;
+    top: 0; right: -20px;
+    width: 15px; height: 15px;
+    background-image: url(../images/icon_more.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section.community .banner-wrap a {
+    text-indent: -9999px;
+    position: absolute;
+    top: 0; left: 0;
+    width: inherit; height: inherit; 
+}

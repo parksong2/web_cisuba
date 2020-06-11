@@ -1,0 +1,47 @@
+header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 79px;
+    background-color: #fff;
+    z-index: 999;
+    border-bottom: 1px solid #999;
+    display: none;
+}
+
+header .logo {
+    float: left;
+    width: 134px;
+    height: 33px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+header nav {
+    float: right;
+}
+header nav .gnb {
+    float: left;
+    margin-top: 26px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+header nav .gnb:first-child {
+    margin-left: 0;
+}
+
+.gnb span {
+    font-weight: bold;
+    font-size: inherit;
+}
+.gnb.id {
+    display: none;
+}
+.gnb [data-connect-type="membership"]{
+    display:none
+}
+.membership [data-connect-type="guest"]{
+    display:none;
+}
+.membership [data-connect-type="membership"]{
+    display:inline;
+}

@@ -1,0 +1,203 @@
+/*
+    login page
+*/
+section.login article.login-wrap {
+    width: 442px; height: 566px;
+    position: absolute;
+    top: 170px; left: 50%;
+    transform: translateX(-50%);
+}
+section.login .logo {
+    width: 134px; height: 33px;
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+}
+section.login .close {
+    width: 25px; height: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+section.login .enter-wrap {
+    width: 442px; height: 132px;
+    float: left;
+    margin-top: 51px;
+}
+section.login .enter {
+    width: 442px; height: 66px;
+    float: left;
+}
+section.login .enter input {
+    width: 420px; height: inherit;
+    border: 1px solid #999;
+    font-size: 16px;
+    color: #999;
+    padding-left: 20px;
+}
+
+section.login .login-btn {
+    width: 442px; height: 70px;
+    float: left;
+    margin-top: 40px;
+}
+section.login .login-btn input {
+    width: 442px; height: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    background-color: #17a7c3;
+    cursor: pointer;
+}
+
+section.login .util-wrap {
+    float: right;
+    margin-top: 30px;
+}
+section.login .util-wrap .util {
+    float: left;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+section.login .util:before {
+    content: '';
+    width: 1px; height: 15px;
+    background-color: #999;
+    position: absolute;
+    top: 1px; left: -12px;
+}
+section.login .util:first-child:before {
+    display: none;
+}
+section.login .util-wrap .util:hover {
+    text-decoration: underline;
+}
+section.login .util:nth-child(1) {
+    margin-left: 0;
+}
+
+section.login .account-wrap {
+    float: left;
+    margin-top: 42px;
+}
+section.login .account {
+    width: 442px; height: 65px;
+    float: left;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+section.login .account:nth-child(1) {
+    background-color: #fae101;
+}
+section.login .account:nth-child(2) {
+    background-color: #1ee000;
+}
+section.login .account .icon, section.login .account .text {
+    float: left;
+    margin-top: 18px;
+}
+section.login .account .icon {
+    width: 34px; height: 34px;
+    margin-left: 85px;
+}
+section.login .account .text {
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+}
+section.login .account:nth-child(1) .text {
+    color: #000;
+}
+section.login .account:nth-child(2) .text {
+    color: #fff;
+}
+section.login .account-wrap:before {
+    content: '';
+    width: 442px; height: 1px;
+    background-color: #ddd;
+    position: absolute;
+    top: -27px; left: 0;
+}
+
+
+/*
+    join page
+*/
+section.join .join-wrap {
+    width: 442px; height: 585px;
+    position: absolute;
+    top: 172px; left: 50%;
+    transform: translateX(-50%);
+}
+section.join .join-wrap .title {
+    width: 135px; height: 33px;
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    background-image: url(../images/iconset.png);
+    background-repeat: no-repeat;
+    background-position: -241px -71px;
+}
+
+section.join .enter-wrap {
+    position: absolute;
+    top: 82px; left: 0;
+    width: 442px; height: inherit;
+}
+section.join .enter-wrap .enter {
+    float: left;
+    width: inherit; height: 67px;
+    margin-bottom: 13px;
+}
+section.join .enter-wrap .enter:last-child {
+    margin: 0;
+}
+section.join .enter input {
+    width: 392px; height: 17px;
+    border: 1px solid #999;
+    padding: 24px;
+    font-size: 15px;
+}
+
+section.join .check-wrap {
+    margin-top: 34px;
+    width: 100%;
+    position: absolute;
+    bottom: 105px; left: 0;
+}
+section.join .check-wrap .check {
+    float: left;
+    width: 100%;
+}
+section.join .check-wrap .check:nth-child(2) {
+    margin-top: 17px;
+}
+section.join .check-wrap .check input {
+    float: left;
+    width: 20px; height: 20px;
+    margin: 0;
+    margin-right: 15px;
+    cursor: pointer;
+}
+section.join .check-wrap .check .text {
+    float: left;
+    font-size: 16px;
+}
+
+section.join .join-wrap .join-btn {
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 442px; height: 70px;
+}
+section.join .join-btn input {
+    width: 100%; height: inherit;
+    background-color: #17a7c3;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}

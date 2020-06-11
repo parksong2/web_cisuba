@@ -1,0 +1,946 @@
+@media (min-width: 1200px){
+    section.visual {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+    .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section {
+        width: 100%;
+    }
+    
+    /*
+        header / footer
+    */
+    header .inner, footer .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header .inner .logo, footer .inner .etc-menu, footer .inner .flogo {
+        left: 5px;
+    }
+    footer .inner .company-info {
+        top: 145px; left: 5px;
+        line-height: 20px;
+    }
+    footer .inner .cs-wrap {
+        right: 5px;
+    }
+    
+    /*
+        main tab menu
+    */
+    section.tab-menu .inner .tab-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tab-wrap .tab {
+        width: 50%;
+    }
+    section.tab-menu .inner .tview-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tview .image {
+        width: 100%;
+    }
+    
+    /*
+        main partner
+    */
+    section.partner {
+        width: 100%;
+    }
+    section.partner .partner-wrap {
+        width: 100%;
+    }
+    section.partner .partner-wrap form {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont textarea {
+        width: calc(100% - 32px);
+    }
+    section.partner .partner-wrap .enter {
+        width: 100%;
+    }
+    section.partner .partner-wrap .enter input {
+        width: calc(100% - 32px);
+    }
+    
+    /*
+        main community
+    */
+    section.community {
+        width: 100%;
+        height: 1000px;
+    }
+    section.community .inner {
+        width: 100%;
+    }
+    section.community .board {
+        float: left;
+        width: 49%;
+    }
+    section.community .cs-wrap {
+        position: absolute;
+        left: 51%;
+        width: 49%;
+    }
+    section.community .banner-wrap {
+        position: absolute;
+        top: 500px; left: 0;
+        width: 100%; height: 297px;
+    }
+    section.community .banner-wrap .banner {
+        width: 100%;
+        background-color: #19a6c4;
+    }
+    section.community .banner-wrap .banner img {
+        display: none;
+    }
+    
+    /*
+        policy privacy / service
+    */
+    content.policy .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.privacy-tab .tab-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tab-wrap .tab {
+        width: 49%;
+    }
+    section.privacy-tab .tab-wrap .tab a {
+        width: 49%;
+    }
+    section.privacy-tab .tview-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tview-wrap .tview {
+        width: 100%;
+    }
+    section.privacy-tab .tview form {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont textarea {
+        width: calc(100% - 40px);
+    }
+    
+    /*
+        sub page
+    */
+    section.notify aside, section.ticket aside, section.mypage aside {
+        width: 100%; height: 50px;
+        top: 0;
+        background-color: #eee;
+    }
+    section.notify aside .snb-wrap, section.ticket aside .snb-wrap, section.mypage aside .snb-wrap {
+        width: 100%;
+        float: left;
+        top: 16px;
+    }
+    section.notify aside .snb-wrap .snb, section.ticket aside .snb-wrap .snb, section.mypage aside .snb-wrap .snb {
+        float: left;
+        width: 33.33%;
+    }
+    section.notify aside .snb a, section.ticket aside .snb a, section.mypage aside .snb a {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section.notify article, section.ticket article, section.mypage article {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+    }
+    section.ticket article .total-wrap {
+        width: 100%;
+    }
+    section.ticket article .searchboard {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 840px) and (max-width: 1024px){
+    .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section {
+        width: 100%;
+    }
+    
+    /*
+        header / footer
+    */
+    header .inner .logo, footer .inner .etc-menu, footer .inner .flogo {
+        left: 5px;
+    }
+    footer .inner .company-info {
+        top: 145px; left: 5px;
+        line-height: 20px;
+    }
+    footer .inner .cs-wrap {
+        right: 5px;
+    }
+    
+    /*
+        main tab menu
+    */
+    section.tab-menu .inner .tab-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tab-wrap .tab {
+        width: 50%;
+    }
+    section.tab-menu .inner .tview-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tview .image {
+        width: 100%;
+    }
+    
+    /*
+        main partner
+    */
+    section.partner {
+        width: 100%;
+    }
+    section.partner .partner-wrap {
+        width: 100%;
+    }
+    section.partner .partner-wrap form {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont textarea {
+        width: calc(100% - 32px);
+        overflow-y: auto;
+    }
+    section.partner .partner-wrap .enter {
+        width: 100%;
+    }
+    section.partner .partner-wrap .enter input {
+        width: calc(100% - 32px);
+    }
+    
+    /*
+        main community
+    */
+    section.community {
+        width: 100%;
+        height: 1000px;
+    }
+    section.community .inner {
+        width: 100%;
+    }
+    section.community .board {
+        float: left;
+        width: 49%;
+    }
+    section.community .cs-wrap {
+        position: absolute;
+        left: 51%;
+        width: 49%;
+    }
+    section.community .banner-wrap {
+        position: absolute;
+        top: 500px; left: 0;
+        width: 100%; height: 297px;
+    }
+    section.community .banner-wrap .banner {
+        width: 100%;
+        background-color: #19a6c4;
+    }
+    section.community .banner-wrap .banner img {
+        display: none;
+    }
+    
+    /*
+        policy privacy / service
+    */
+    content.policy .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.privacy-tab .tab-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tab-wrap .tab {
+        width: 49%;
+    }
+    section.privacy-tab .tab-wrap .tab a {
+        width: 49%;
+    }
+    section.privacy-tab .tview-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tview-wrap .tview {
+        width: 100%;
+    }
+    section.privacy-tab .tview form {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont textarea {
+        width: calc(100% - 40px);
+    }
+    
+    /*
+        sub page
+    */
+    section.notify aside, section.ticket aside, section.mypage aside {
+        width: 100%; height: 50px;
+        top: 0;
+        background-color: #eee;
+    }
+    section.notify aside .snb-wrap, section.ticket aside .snb-wrap, section.mypage aside .snb-wrap {
+        width: 100%;
+        float: left;
+        top: 16px;
+    }
+    section.notify aside .snb-wrap .snb, section.ticket aside .snb-wrap .snb, section.mypage aside .snb-wrap .snb {
+        float: left;
+        width: 33.33%;
+    }
+    section.notify aside .snb a, section.ticket aside .snb a, section.mypage aside .snb a {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section.notify article, section.ticket article, section.mypage article {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+    }
+    section.ticket article .total-wrap {
+        width: 100%;
+    }
+    section.ticket article .searchboard {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 840px){
+    .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section {
+        width: 100%;
+    }
+    
+    /*
+        header / footer
+    */
+    header .inner, footer .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header .inner .logo, footer .inner .etc-menu, footer .inner .flogo {
+        left: 5px;
+    }
+    footer .inner .company-info {
+        top: 145px; left: 5px;
+        line-height: 20px;
+    }
+    footer .inner .cs-wrap {
+        position: absolute;
+        top: 35px; right: 5px;
+    }
+    
+    /*
+        main app down
+    */
+    section.appdown .app-wrap {
+        width: 100%;
+    }
+    section.appdown .app-wrap .app {
+        width: 33.33%;
+    }
+    section.appdown .app-wrap .app .image {
+        width: 156px; height: 156px;
+        top: 50px;
+    }
+    section.appdown .app-wrap .app .image img {
+        width: 100%;
+    }
+    section.appdown .app-wrap .app .text {
+        top: 50%;
+    }
+    
+    /*
+        main tab menu
+    */
+    section.tab-menu .inner .tab-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tab-wrap .tab {
+        width: 50%;
+    }
+    section.tab-menu .inner .tview-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tview .image {
+        width: 100%;
+    }
+    section.tab-menu .inner .tview .util:nth-child(2) {
+        margin-left: 20px;
+    }
+    section.tab-menu .inner .tview .util:nth-child(3) {
+        margin-left: 20px;
+    }
+    section.tab-menu .inner .tview .util .text {
+        margin-left: 6px;
+    }
+    
+    /*
+        main partner
+    */
+    section.partner {
+        width: 100%;
+    }
+    section.partner .partner-wrap {
+        width: 100%;
+    }
+    section.partner .partner-wrap form {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont textarea {
+        width: calc(100% - 32px);
+        overflow-y: auto;
+    }
+    section.partner .partner-wrap .enter {
+        width: 100%;
+    }
+    section.partner .partner-wrap .enter input {
+        width: calc(100% - 32px);
+    }
+    
+    /*
+        main community
+    */
+    section.community {
+        width: 100%;
+        height: 1000px;
+    }
+    section.community .inner {
+        width: 100%;
+    }
+    section.community .board {
+        float: left;
+        width: 49%;
+    }
+    section.community .cs-wrap {
+        position: absolute;
+        left: 51%;
+        width: 49%;
+    }
+    section.community .banner-wrap {
+        position: absolute;
+        top: 500px; left: 0;
+        width: 100%; height: 297px;
+    }
+    section.community .banner-wrap .banner {
+        width: 100%;
+        background-color: #19a6c4;
+    }
+    section.community .banner-wrap .banner img {
+        display: none;
+    }
+
+    /*
+        policy privacy / service
+    */
+    content.policy .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.privacy-tab .tab-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tab-wrap .tab {
+        width: 48%;
+    }
+    section.privacy-tab .tab-wrap .tab a {
+        width: 48%;
+    }
+    section.privacy-tab .tview-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tview-wrap .tview {
+        width: 100%;
+    }
+    section.privacy-tab .tview form {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont textarea {
+        width: calc(100% - 40px);
+    }
+    
+    /*
+        sub page
+    */
+    section.notify aside, section.ticket aside, section.mypage aside {
+        width: 100%; height: 50px;
+        top: 0;
+        background-color: #eee;
+    }
+    section.notify aside .snb-wrap, section.ticket aside .snb-wrap, section.mypage aside .snb-wrap {
+        width: 100%;
+        float: left;
+        top: 16px;
+    }
+    section.notify aside .snb-wrap .snb, section.ticket aside .snb-wrap .snb, section.mypage aside .snb-wrap .snb {
+        float: left;
+        width: 33.33%;
+    }
+    section.notify aside .snb a, section.ticket aside .snb a, section.mypage aside .snb a {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section.notify article, section.ticket article, section.mypage article {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+    }
+    section.ticket article .total-wrap {
+        width: 100%;
+    }
+    section.ticket article .searchboard {
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 600px){
+    .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section {
+        width: 100%;
+    }
+    
+    /*
+        header / footer
+    */
+    header .inner, footer .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header .inner .logo, footer .inner .etc-menu, footer .inner .flogo {
+        left: 5px;
+    }
+    footer .inner .etc-menu .etc {
+        font-size: 13px;
+    }
+    footer .inner .company-info {
+        top: 145px; left: 5px;
+        line-height: 20px;
+        text-align: center;
+    }
+    footer .inner .cs-wrap {
+        position: absolute;
+        top: 35px; right: 5px;
+    }
+
+    
+    /*
+        main app down
+    */
+    section.appdown .app-wrap {
+        width: 100%;
+    }
+    section.appdown .app-wrap .app {
+        width: 33.33%;
+    }
+    section.appdown .app-wrap .app .image {
+        width: 156px; height: 156px;
+        top: 50px;
+    }
+    section.appdown .app-wrap .app .image img {
+        width: 100%;
+    }
+    section.appdown .app-wrap .app .text {
+        top: 50%;
+    }
+    
+    /*
+        main tab menu
+    */
+    section.tab-menu .inner .tab-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tab-wrap .tab {
+        width: 50%;
+    }
+    section.tab-menu .inner .tview-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tview .image, section.tab-menu .inner .tview:nth-child(2) .image {
+        width: 100%;
+    }
+    section.tab-menu .inner .tview:nth-child(2) .image {
+        top: 180px;
+    }
+    section.tab-menu .inner .tview .util {
+        width: 100%;
+        float: left;
+        margin: 0 0 5px 0;
+    }
+    
+    /*
+        main partner
+    */
+    section.partner {
+        width: 100%;
+    }
+    section.partner .inner .title {
+        font-size: 30px;
+    }
+    section.partner .partner-wrap {
+        width: 100%;
+    }
+    section.partner .partner-wrap form {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont textarea {
+        width: calc(100% - 32px);
+        overflow-y: auto;
+    }
+    section.partner .partner-wrap .enter {
+        width: 100%;
+    }
+    section.partner .partner-wrap .enter input {
+        width: calc(100% - 32px);
+    }
+    
+    /*
+        main community
+    */
+    section.community {
+        width: 100%;
+        height: 1000px;
+    }
+    section.community .inner {
+        width: 100%;
+    }
+    section.community .board {
+        position: absolute;
+        top: 50px; left: 0;
+        width: 100%;
+    }
+    section.community .cs-wrap {
+        position: absolute;
+        left: 0; top: 357px;
+        width: 100%;
+    }
+    section.community .banner-wrap {
+        position: absolute;
+        top: 664px; left: 0;
+        width: 100%; height: 297px;
+    }
+    section.community .banner-wrap .banner {
+        width: 100%;
+        background-color: #19a6c4;
+    }
+    section.community .banner-wrap .banner img {
+        display: none;
+    }
+    
+    /*
+        policy privacy / service
+    */
+    content.policy .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.privacy-tab .tab-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tab-wrap .tab {
+        width: 48%;
+    }
+    section.privacy-tab .tab-wrap .tab a {
+        width: 48%;
+    }
+    section.privacy-tab .tview-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tview-wrap .tview {
+        width: 100%;
+    }
+    section.privacy-tab .tview form {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont textarea {
+        width: calc(100% - 40px);
+    }
+    
+    /*
+        sub page
+    */
+    section.notify aside, section.ticket aside, section.mypage aside {
+        width: 100%; height: 50px;
+        top: 0;
+        background-color: #eee;
+    }
+    section.notify aside .snb-wrap, section.ticket aside .snb-wrap, section.mypage aside .snb-wrap {
+        width: 100%;
+        float: left;
+        top: 16px;
+    }
+    section.notify aside .snb-wrap .snb, section.ticket aside .snb-wrap .snb, section.mypage aside .snb-wrap .snb {
+        float: left;
+        width: 33.33%;
+    }
+    section.notify aside .snb a, section.ticket aside .snb a, section.mypage aside .snb a {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section.notify article, section.ticket article, section.mypage article {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+    }
+    section.ticket article .total-wrap {
+        width: 100%;
+    }
+    section.ticket article .searchboard {
+        width: 100%;
+    }
+}
+
+@media (min-width: 240px) and (max-width: 480px){
+    .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section {
+        width: 100%;
+    }
+    
+    /*
+        header / footer
+    */
+    header .inner, footer .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header .inner .logo, footer .inner .etc-menu, footer .inner .flogo {
+        left: 5px;
+    }
+    footer .inner .etc-menu .etc {
+        font-size: 11px;
+    }
+    footer .inner .company-info {
+        top: 145px; left: 5px;
+        line-height: 20px;
+        text-align: center;
+    }
+    footer .inner .cs-wrap {
+        position: absolute;
+        top: 35px; right: 5px;
+    }
+   
+    /*
+        main app down
+    */
+    section.appdown .app-wrap {
+        width: 100%;
+    }
+    section.appdown .app-wrap .app {
+        width: 33.33%;
+    }
+    section.appdown .app-wrap .app .image {
+        width: 112px; height: 112px;
+        top: 50px;
+    }
+    section.appdown .app-wrap .app .image img {
+        width: 100%;
+    }
+    section.appdown .app-wrap .app .text {
+        top: 40%;
+    }
+    
+    /*
+        main tab menu
+    */
+    section.tab-menu .inner .tab-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tab-wrap .tab {
+        width: 50%;
+    }
+    section.tab-menu .inner .tview-wrap {
+        width: 100%;
+    }
+    section.tab-menu .inner .tview .image, section.tab-menu .inner .tview:nth-child(2) .image {
+        width: 100%;
+    }
+    section.tab-menu .inner .tview:nth-child(2) .image {
+        top: 180px;
+    }
+    section.tab-menu .inner .tview .util {
+        width: 100%;
+        float: left;
+        margin: 0 0 5px 0;
+    }
+    
+    /*
+        main partner
+    */
+    section.partner {
+        width: 100%;
+    }
+    section.partner .inner .title {
+        font-size: 24px;
+    }
+    section.partner .partner-wrap {
+        width: 100%;
+    }
+    section.partner .partner-wrap form {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont {
+        width: 100%;
+    }
+    section.partner .partner-wrap .cont .text {
+        font-size: 13px;
+    }
+    section.partner .partner-wrap .cont textarea {
+        width: calc(100% - 32px);
+        overflow-y: auto;
+    }
+    section.partner .partner-wrap .enter {
+        width: 100%;
+    }
+    section.partner .partner-wrap .enter input {
+        width: calc(100% - 32px);
+    }
+    
+    /*
+        main community
+    */
+    section.community {
+        width: 100%;
+        height: 1000px;
+    }
+    section.community .inner {
+        width: 100%;
+    }
+    section.community .board {
+        position: absolute;
+        top: 50px; left: 0;
+        width: 100%;
+    }
+    section.community .cs-wrap {
+        position: absolute;
+        left: 0; top: 357px;
+        width: 100%;
+    }
+    section.community .banner-wrap {
+        position: absolute;
+        top: 664px; left: 0;
+        width: 100%; height: 297px;
+    }
+    section.community .banner-wrap .banner {
+        width: 100%;
+        background-color: #19a6c4;
+    }
+    section.community .banner-wrap .banner img {
+        display: none;
+    }
+    
+    /*
+        policy privacy / service
+    */
+    content.policy .inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.privacy-tab .tab-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tab-wrap .tab {
+        width: 48%;
+    }
+    section.privacy-tab .tab-wrap .tab a {
+        width: 48%;
+    }
+    
+    section.privacy-tab .tview-wrap {
+        width: 100%;
+    }
+    section.privacy-tab .tview-wrap .tview {
+        width: 100%;
+    }
+    section.privacy-tab .tview form {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont {
+        width: 100%;
+    }
+    section.privacy-tab .tview .cont textarea {
+        width: calc(100% - 40px);
+    }
+    
+    /*
+        sub page
+    */
+    section.notify aside, section.ticket aside, section.mypage aside {
+        width: 100%; height: 50px;
+        top: 0;
+        background-color: #eee;
+    }
+    section.notify aside .snb-wrap, section.ticket aside .snb-wrap, section.mypage aside .snb-wrap {
+        width: 100%;
+        float: left;
+        top: 16px;
+    }
+    section.notify aside .snb-wrap .snb, section.ticket aside .snb-wrap .snb, section.mypage aside .snb-wrap .snb {
+        float: left;
+        width: 33.33%;
+    }
+    section.notify aside .snb a, section.ticket aside .snb a, section.mypage aside .snb a {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section.notify article, section.ticket article, section.mypage article {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+    }
+    section.ticket article .total-wrap {
+        width: 100%;
+    }
+    section.ticket article .searchboard {
+        width: 100%;
+    }
+}

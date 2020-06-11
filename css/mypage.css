@@ -1,0 +1,40 @@
+section.mypage table.mypage th {
+    text-align: left;
+}
+section.mypage table.mypage th .tt {
+    margin-left: 55px;
+    font-size: 15px;
+}
+section.mypage table.mypage td {
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 0;
+}
+section.mypage table.mypage td:nth-child(1) {
+    text-align: center;
+}
+section.mypage table.mypage td .enter {
+    margin-left: 20px;
+}
+section.mypage table.mypage .enter input {
+    border: 1px solid #ccc;
+    padding: 7px 14px;
+    border-radius: 3px;
+    background-color: #fff;
+    width: 200px;
+}
+section.mypage .mypage-btn .btn {
+    position: absolute;
+    top: 30px; left: 50%;
+    transform: translateX(-50%);
+}
+section.mypage .mypage-btn input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #999;
+    color: #fff;
+    padding: 7px 14px;
+    cursor: pointer;
+    font-size: 14px;
+}

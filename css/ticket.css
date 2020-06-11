@@ -1,0 +1,324 @@
+section.ticket .name {
+    width: 15%;
+    text-align: center;
+}
+section.ticket .call {
+    width: 20%;
+    text-align: center;
+}
+section.ticket .afternoon {
+    width: 25%;
+    text-align: center;
+}
+section.ticket .night {
+    width: 25%;
+    text-align: center;
+}
+section.ticket .used {
+    width: 15%;
+}
+section.ticket td {
+    height: 50px;
+}
+section.ticket td.used {
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+}
+section.ticket td.afternoon, section.ticket td.night {
+    padding-right: 45px;
+}
+
+/*
+    총 인원수
+*/
+section.ticket .listcount {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px; left: 0;
+}
+section.ticket .listcount span {
+    color: #17a7c3;
+}
+
+/*
+    주간 이용권, 야간 이용권
+*/
+section.ticket .data {
+    border: 1px solid #eee;
+    display: inline-block;
+}
+section.ticket .data .datatext {
+    float: left;
+    width: 40px; height: 41px;
+    padding: 0 10px 0 10px;
+    line-height: 41px;
+}
+section.ticket .data .rightbtn {
+    float: right;
+}
+section.ticket .data .rightbtn .btn-wrap {
+    width: 19px; height: 41px;
+    border-left: 1px solid #eee;
+}
+section.ticket .data .btn-wrap .btnup, section.ticket .data .btn-wrap .btndown {
+    width: 20px; height: 20px;
+    float: left;
+    background-image: url(../images/iconset.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+section.ticket .data .btn-wrap .btnup {
+    border-bottom: 1px solid #eee;
+    background-position: left -159px;
+}
+section.ticket .data .btn-wrap .btndown {
+    background-position: left -179px;
+}
+section.ticket .data .tt {
+    position: absolute;
+    top: 13px; left: 85px;
+    width: 45px;
+}
+
+/*
+    tab / tview
+*/
+section.ticket article.tview {
+    display: none;
+}
+section.ticket article.tview.sel {
+    display: block;
+}
+
+/*
+paging
+*/
+.paging {
+    width: 100%; height: 40px;
+    margin-top: 30px;
+}
+.paging .number-wrap {
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+}
+.paging .num {
+    float: left;
+    padding: 0 12px 0 12px;
+    margin: 0 5px 0 5px;
+    line-height: 36px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    color: #999;
+    cursor: pointer;
+}
+.paging .num.active {
+    border: 1px solid #17a7c3;
+    color: #17a7c3;
+    font-weight: bold;
+}
+.paging .list-search {
+    float: right;
+    border-radius: 3px;
+    border: 1px solid #999;
+    width: 200px;
+}
+.paging .list-search input {
+    border: 0;
+    padding: 10px;
+}
+
+/*
+    pay
+*/
+section.ticket .total-wrap {
+    width: 952px; height: 84px;
+    border-top: 1px solid #9c9c9c;
+    border-bottom: 1px solid #ccc;
+    margin-top: 40px;
+}
+section.ticket .total-wrap .total {
+    float: left;
+    width: 238px; height: inherit;
+}
+section.ticket .total-wrap .total .text {
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: bold;
+}
+section.ticket .total-wrap .total .text span {
+    color: #17a7c3;
+}
+
+section.ticket .searchboard {
+    margin-top: 20px;
+    width: 952px; height: 110px;
+    background-color: #eee;
+}
+section.ticket .searchboard .circle-left {
+    position: absolute;
+    top: 47px; left: 30px;
+}
+section.ticket .searchboard .circle-left .text {
+    font-size: 14px;
+    font-weight: bold;
+}
+section.ticket .searchboard .circle-left .text span {
+    width: 7px; height: 14px;
+    background-image: url(../images/arrow_mi_next.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    float: right;
+    margin-left: 15px;
+    margin-top: 1px;
+}
+
+section.ticket .searchboard .circle-right {
+    position: absolute;
+    top: 30px; left: 130px;
+}
+section.ticket .searchboard .month-wrap {
+    float: left;
+    width: 168px; height: 20px;
+}
+section.ticket .searchboard .month-wrap .month {
+    float: left;
+    width: 42px; height: inherit;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+section.ticket .searchboard .month-wrap .month:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 42px; height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+section.ticket .searchboard .month-wrap .month.active {
+    color: #17a7c3;
+}
+
+section.ticket .date-table {
+    width: 783px; height: 28px;
+    position: absolute;
+    top: 30px; left: 0;
+}
+section.ticket .date-table .sl {
+    float: left;
+    margin-left: 25px;
+}
+section.ticket .date-table .sl select {
+    float: left;
+    width: 57px; height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section.ticket .date-table .sl:nth-child(8) input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 7px 14px;
+}
+section.ticket .date-table .sl:last-child input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #999;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 14px;
+}
+section.ticket .date-table .sl:last-child {
+    margin-left: 8px;
+}
+section.ticket .date-table .sl:nth-child(1) {
+    margin-left: 0;
+}
+section.ticket .date-table .sl:nth-child(4) {
+    line-height: 28px;
+}
+section.ticket .date-table .sl:nth-child(5) {
+    margin: 0;
+}
+section.ticket .date-table .sl:nth-child(1):before, section.ticket .date-table .sl:nth-child(5):before {
+    content: '년';
+    position: absolute;
+    top: 7px; right: -18px;
+    font-size: 12px;
+}
+section.ticket .date-table .sl:nth-child(2):before, section.ticket .date-table .sl:nth-child(6):before {
+    content: '월';
+    position: absolute;
+    top: 7px; right: -18px;
+    font-size: 12px;
+}
+section.ticket .date-table .sl:nth-child(3):before, section.ticket .date-table .sl:nth-child(7):before {
+    content: '일';
+    position: absolute;
+    top: 7px; right: -18px;
+    font-size: 12px;
+}
+
+section.ticket table.pay td .tt {
+    text-align: center;
+}
+section.ticket table.pay td.end .tt {
+    color: #ccc;
+    font-weight: bold;
+}
+
+/*
+    my page
+*/
+section.ticket table.mypage th {
+    text-align: left;
+}
+section.ticket table.mypage th .tt {
+    margin-left: 55px;
+}
+section.ticket table.mypage td {
+    height: 30px;
+    border-bottom: 0;
+}
+section.ticket table.mypage td:nth-child(1) {
+    text-align: center;
+}
+section.ticket table.mypage td .enter {
+    margin-left: 20px;
+}
+section.ticket table.mypage .enter input {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 7px 14px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+section.ticket .mypage-btn .btn {
+    position: absolute;
+    top: 30px; left: 50%;
+    transform: translateX(-50%);
+}
+section.ticket .mypage-btn input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #999;
+    color: #fff;
+    padding: 7px 14px;
+    cursor: pointer;
+    font-size: 14px;
+}
+section.ticket .mypage-btn a {
+    position: absolute;
+    top: 0; left: 0;
+    width: 80px; height: 30px;
+}

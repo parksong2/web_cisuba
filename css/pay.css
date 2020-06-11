@@ -1,0 +1,13 @@
+article.pay .total-wrap {
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+article.pay .total-wrap .total {
+    float: left;
+    width: 25%; height: inherit;
+}
+
+article.pay .table {
+    margin-top: 50px;
+}

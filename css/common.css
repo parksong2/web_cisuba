@@ -1,0 +1,90 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    color: #666;
+}
+body {
+    margin: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+div, header, footer, nav, section, article, aside {
+    position: relative;
+}
+img {
+    vertical-align: top;
+    border: 0;
+}
+a {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+    height: inherit;
+}
+section {
+    height: 1000px;
+    background-color: #fff;
+}
+
+.dimmedAlert {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: none;
+}
+.dimmedAlert .alert-page {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 288px; height: 150px;
+    background-color: #fff;
+    border-radius: 15px;
+    z-index: 10002;
+}
+.dimmedAlert .alert-page .alert-text {
+    width: 100%;
+    margin-top: 30px;
+    line-height: 24px;
+    text-align: center;
+}
+.dimmedAlert .alert-bottom {
+    position: absolute;
+    bottom: 20px; left: 50%;
+    transform: translateX(-50%);
+    width: 65px; height: 30px;
+}
+.dimmedAlert .alert-page .alert-bottom:before {
+    content: '';
+    position: absolute;
+    top: -15px; left: 50%;
+    transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 230px; height: 1px;
+    background-color: #eaeaea;
+}
+/*
+.dimmedAlert .alert-dimmed {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10001
+}
+*/
+.dimmedAlert .alert-page .alert-bottom button {
+    width: inherit; height: inherit;
+    background-color: #19a6c4;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
